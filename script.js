@@ -1,8 +1,8 @@
-
-/* Var Alert Prompt */
 // make a string variable for favorite ice cream flavor, prompt user for it
-var flavor=prompt("which ice cream flavor do you want?");
 // make an integer variable for number of scoops on the cone, prompt user for it
-var scoops = prompt("how many scoops do you want in the cone?");
-// alert "You want " scoops "scoops of " flavor
-alert("You want " + scoops + " scoops of " + flavor);
+// if scoosp is creater than three, alert ("Max 3 scoops!")
+// otherwise alert "You want " scoops " scoops of " flavor
+var flavor = prompt("what is your favorite ice cream flavor?");
+var number = prompt("How many scoops do you want?");
+if (number>3) alert ("Max 3 scoops!");
+else alert("You want " + number +" scoops of " + "flavor." )

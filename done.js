@@ -9,7 +9,9 @@ alert("My favorite color is: " + color);
 /* Prompt */
 
 /* Prompt with Conditional */
-
+var color = prompt("What is your favorite color?");
+if (color=="back") alert ("Black is not really a color. ");
+else alert(color + " is a nice color!" );
 
 /* AGE */
 
@@ -20,6 +22,10 @@ alert("My favorite color is: " + color);
 
 
 /* Prompt with Conditional */
+var age = prompt("How old are you?");
+var name1 = prompt(" What is your name?");
+if (age > 16 ) alert("You don't look that old!");
+else alert(name1 + " is " + age +  " years old.");
 
 
 /* ICE CREAM */
