@@ -45,6 +45,18 @@ alert("You want " + scoops + " scoops of " + flavor);
 
 
 /* Prompt with Conditional */
+// make a string variable for favorite ice cream flavor, prompt user for it
+var flavor = prompt("what is your favorite ice cream flavor?");
+// make an integer variable for number of scoops on the cone, prompt user for it
+var number = prompt("How many scoops do you want?");
+// if scoosp is creater than three, alert ("Max 3 scoops!")
+if (number>3){
+     alert ("Max 3 scoops!");
+      number = prompt("How many scoops do you want?");
+} 
+// otherwise alert "You want " scoops " scoops of " flavor
+else alert("You want " + number +" scoops of " +  flavor +"." )
+
 
 
 /* PET */
